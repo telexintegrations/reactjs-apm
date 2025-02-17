@@ -1,0 +1,35 @@
+{
+  "name": "reactjs-apm",
+  "version": "1.0.0",
+  "description": "A lightweight APM (Application Performance Monitoring) tool for React applications.",
+  "module": "dist/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn build"
+  },
+  "repository": "git@github.com:telexintegrations/reactjs-apm.git",
+  "author": "Tunde Alabi <tundealabi4780@gmail.com>",
+  "keywords": [
+    "apm",
+    "logging",
+    "react",
+    "error tracking",
+    "monitoring"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.9",
+    "@types/react-dom": "^19.0.3",
+    "typescript": "^5.7.3"
+  }
+}

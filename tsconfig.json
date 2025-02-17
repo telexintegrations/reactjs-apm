@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "outDir": "dist",
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "module": "NodeNext",
+    "target": "ES6",
+    "jsx": "react",
+    "moduleResolution": "nodenext"
+  },
+  "include": ["src"]
+}
