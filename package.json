@@ -1,6 +1,6 @@
 {
   "name": "telex-reactjs-apm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight APM (Application Performance Monitoring) tool for React applications.",
   "module": "dist/index.js",
   "main": "dist/index.js",
