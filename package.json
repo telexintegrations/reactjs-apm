@@ -1,5 +1,5 @@
 {
-  "name": "reactjs-apm",
+  "name": "telex-reactjs-apm",
   "version": "1.0.0",
   "description": "A lightweight APM (Application Performance Monitoring) tool for React applications.",
   "module": "dist/index.js",
@@ -17,6 +17,7 @@
   "repository": "git@github.com:telexintegrations/reactjs-apm.git",
   "author": "Tunde Alabi <tundealabi4780@gmail.com>",
   "keywords": [
+    "telex",
     "apm",
     "logging",
     "react",
