@@ -11,7 +11,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepare": "yarn build"
+    "prepare": "yarn build",
+    "test": "jest"
   },
   "repository": "git@github.com:telexintegrations/reactjs-apm.git",
   "author": "Tunde Alabi <tundealabi4780@gmail.com>",
@@ -28,8 +29,16 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@types/react": "^19.0.9",
-    "@types/react-dom": "^19.0.3",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/react": "^16.2.0",
+    "@types/jest": "^29.5.14",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jest-fixed-jsdom": "^0.0.9",
+    "msw": "^2.7.0",
+    "ts-jest": "^29.2.5",
     "typescript": "^5.7.3"
   }
 }

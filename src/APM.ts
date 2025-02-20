@@ -1,3 +1,4 @@
+import { APM_FLUSH_TIMEOUT } from './constants';
 import { APMLogPayload, APMQueueItem } from './types';
 
 export class APM {
@@ -29,7 +30,10 @@ export class APM {
     });
 
     if (!this.flushTimeout) {
-      this.flushTimeout = window.setTimeout(() => this.flush(false), 5000);
+      this.flushTimeout = window.setTimeout(
+        () => this.flush(false),
+        APM_FLUSH_TIMEOUT
+      );
     }
   }
 

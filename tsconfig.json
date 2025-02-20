@@ -9,8 +9,9 @@
     "strict": true,
     "module": "NodeNext",
     "target": "ES6",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "moduleResolution": "nodenext"
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["src/__tests__"]
 }
